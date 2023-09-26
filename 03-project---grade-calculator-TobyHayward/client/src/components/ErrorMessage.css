@@ -1,0 +1,12 @@
+.errorMessage {
+  color: #d30000;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.mainError {
+  border: solid 1px #d30000;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 1rem;
+}

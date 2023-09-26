@@ -1,0 +1,105 @@
+:root {
+  --form-font-size: 1rem;
+  --gap-standard: 1rem;
+  --margin-small: 0.5rem;
+  --padding-small: 0.5rem;
+  --padding-medium: 1rem;
+}
+
+.mainFormSelect,
+.mainFormNumber,
+.mainFormButton {
+  font-family: 'Righteous', sans-serif;
+}
+
+.formInputs {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  padding-top: var(--padding-medium);
+}
+
+.levelDiv,
+.markDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: var(--gap-standard);
+  margin: var(--margin-small);
+  font-size: var(--form-font-size);
+}
+
+.mainFormNumber {
+  width: 2.5rem;
+  align-self: start;
+  justify-self: center;
+}
+
+.gradeText {
+  font-size: var(--form-font-size);
+  align-self: start;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.getGradeTile {
+  font-size: var(--form-font-size);
+  font-weight: 400;
+  margin: auto;
+  max-width: 80%;
+  min-width: fit-content;
+  padding: var(--gap-standard);
+  border-radius: 2rem;
+  border: 1px solid black;
+}
+
+.gradeDisplay {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: var(--padding-small);
+  gap: var(--gap-standard);
+  margin: var(--margin-small/2);
+}
+
+.gradeText {
+  text-align: center;
+  align-self: center;
+}
+
+.mainForm {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: var(--gap-standard);
+}
+
+.formErrorMessage {
+  text-align: start;
+  margin: 0;
+}
+
+@media only screen and (min-width: 35rem) {
+  .mainFormNumber {
+    width: auto;
+  }
+
+  .formInputs {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .levelDiv,
+  .markDiv,
+  .gradeDisplay {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: start;
+  }
+
+  .gradeTitle {
+    margin: 0;
+  }
+  .gradeText {
+    align-self: start;
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "01-proj-online-shop",
+  "author": "Developers Institute",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "serve Submission",
+    "lint:css": "stylelint **/*.css",
+    "prettier:check": "prettier --check '**/*{.css,.html}'",
+    "validate:html": "html-validate 'Submission/**/*.html'"
+  },
+  "devDependencies": {
+    "html-validate": "^6.7.0",
+    "prettier": "^2.6.2",
+    "serve": "^13.0.2",
+    "stylelint": "^14.6.1",
+    "stylelint-config-recommended": "^7.0.0"
+  }
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="logo">
+          <img src="images/logo.png" alt="Logo Plant and Things" />
+        </div>
+
+        <nav class="mainNav">
+          <a class="button" href="index.html">Home</a>
+          <a class="button" href="contact.html">Contact</a>
+        </nav>
+      </header>
+
+      <div class="contactPageContent">
+        <ul class="contactPageContentList">
+          <li class="contactPageContentListItem">
+            <p>Feel free to get in touch anytime</p>
+            <form action="https://formspree.io/f/mwkjbveo" method="post">
+              <div class="formGroup">
+                <label for="name" class="formLabel">Name</label>
+                <input
+                  type="text"
+                  class="formControl"
+                  id="name"
+                  name="name"
+                  placeholder="John Doe"
+                  autofocus
+                  autocomplete="name"
+                />
+              </div>
+              <div class="formGroup">
+                <label for="email" class="formLabel"> Email</label>
+                <input
+                  type="email"
+                  class="formControl"
+                  id="email"
+                  name="email"
+                  placeholder="john_doe@gmail.com"
+                  autocomplete="email"
+                />
+              </div>
+              <div class="formGroup">
+                <label for="message" class="formLabel"> Message</label>
+                <input
+                  type="text"
+                  class="formControl"
+                  id="message"
+                  name="message"
+                  placeholder="Message"
+                />
+              </div>
+              <button class="submitButton" type="submit">Contact us</button>
+            </form>
+          </li>
+          <li class="contactPageContentListItem">
+            <h3>Contact details</h3>
+            <p>
+              123 Fake Street, <br />
+              Auckland, <br />
+              New Zealand <br />
+              Phone: 0912345678 <br />
+              Email:sales@plantsandthings.com
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

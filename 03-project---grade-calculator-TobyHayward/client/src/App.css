@@ -1,0 +1,12 @@
+.app {
+  max-width: 45rem;
+  min-width: fit-content;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  box-sizing: content-box;
+  margin: auto;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+}

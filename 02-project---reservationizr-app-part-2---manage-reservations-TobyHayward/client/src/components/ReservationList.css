@@ -1,0 +1,26 @@
+.reservationListItem {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px gray dashed;
+  align-items: center;
+}
+
+.veiwDetailsButton {
+  color: red;
+}
+.reservationList {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: start;
+  align-self: start;
+  gap: 3rem;
+}
+
+@media screen and (min-width: 35rem) {
+  .reservationListItem {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

@@ -1,0 +1,43 @@
+.restaurantDisplay {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: start;
+  box-shadow: 5px 5px 8px #888888;
+  padding: 0.5rem;
+  margin: 3rem;
+}
+
+.restaurantDisplayItems {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-self: start;
+  padding: 0.5rem;
+}
+
+.reserveNowButton {
+  text-decoration: none;
+  color: aliceblue;
+  border: 2px solid transparent;
+  background: #da000f;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.reserveNowButton:active,
+.reserveNowButton:hover {
+  border-color: #1e0245;
+  color: #1e0245;
+  background: #fff;
+}
+
+@media screen and (min-width: 35rem) {
+  .restaurantDisplay {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+}

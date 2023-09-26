@@ -1,0 +1,35 @@
+.reservation {
+  margin-bottom: 3rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px dashed lightgray;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px gray dashed;
+  align-items: center;
+}
+
+.resturantName {
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.backtoRes {
+  margin-top: 1rem;
+  text-decoration: none;
+  color: black;
+  border: 2px solid transparent;
+  background: lightgray;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+@media screen and (min-width: 35rem) {
+  /* .reservation {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  } */
+}

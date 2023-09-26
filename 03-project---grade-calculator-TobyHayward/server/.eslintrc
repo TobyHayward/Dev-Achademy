@@ -1,0 +1,8 @@
+{
+  "extends": ["standard", "prettier", "plugin:jest/style"],
+  "plugins": ["jest"],
+  "env": {
+    "jest/globals": true
+  },
+  "root": true
+}
